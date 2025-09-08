@@ -5,7 +5,58 @@ Este proyecto forma parte de la **macroactividad de Gestión de Interfaces**.
 
 ---
 
+## 📅 Semana 1 - Entregable
+- Planteamiento del problema: necesidad de una aplicación para organizar y gestionar tareas personales de manera simple.  
+- Objetivo: desarrollar una aplicación móvil multiplataforma en **Flutter** que permita añadir, listar y eliminar tareas.  
+- Herramientas seleccionadas: Flutter, VS Code, GitHub, Justinmind (para wireframes).  
+
+---
+
+## 📅 Semana 2 - Entregable
+- Diseño de wireframes iniciales en **Justinmind** con tres pantallas principales:  
+  1. Pantalla de inicio.  
+  2. Pantalla de lista de tareas.  
+  3. Pantalla de añadir tarea.  
+- Definición de requisitos mínimos:  
+  - Añadir tareas.  
+  - Listar tareas pendientes.  
+  - Eliminar tareas completadas o no deseadas.  
+- Plan de desarrollo por semanas.  
+
+---
+
 ## 🚀 Semana 3 - Entregable
 Estructura base creada con **MaterialApp** y **Scaffold**.
 
 ### 📂 Estructura principal
+
+---
+
+## 🚀 Semana 4 - Entregable
+Implementación de una **lista de tareas estática** usando `ListView`, con un **AppBar azul** y botón de añadir.
+
+---
+
+## 🚀 Semana 5 - Entregable
+Interactividad implementada:  
+- **Añadir tareas** mediante un diálogo (`AlertDialog`).  
+- **Marcar tareas como completadas** con `CheckboxListTile` (con tachado de texto).  
+- **Eliminar tareas** usando botón de papelera o deslizando (`Dismissible`).  
+
+---
+
+## 📅 Plan de desarrollo
+- **Semana 1:** Planteamiento del problema, objetivos y herramientas.  
+- **Semana 2:** Wireframes iniciales y definición de requisitos.  
+- **Semana 3:** Estructura base con `MaterialApp` y `Scaffold`.  
+- **Semana 4:** UI estática (lista de tareas y AppBar).  
+- **Semana 5:** Interactividad (añadir/ marcar/ eliminar tareas con `setState`, diálogo y `Dismissible`).  
+- **Semana 6:** Animaciones y feedback visual.  
+- **Semana 7:** Gestión de estado global (Provider / Firebase).  
+- **Semana 8:** Pruebas de usabilidad, ajustes finales y entrega.  
+
+---
+
+## 👨‍💻 Autor
+Luis Alfredo Martínez Sarabia
+Proyecto académico - Gestión de Interfaces
