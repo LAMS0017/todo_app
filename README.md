@@ -30,6 +30,13 @@ Estructura base creada con **MaterialApp** y **Scaffold**.
 
 ### 📂 Estructura principal
 
+todo_app/
+├─ lib/
+│ └─ main.dart
+├─ pubspec.yaml
+└─ ...
+
+
 ---
 
 ## 🚀 Semana 4 - Entregable
@@ -45,13 +52,22 @@ Interactividad implementada:
 
 ---
 
+## 🚀 Semana 6 - Entregable
+Se añadieron **animaciones y feedback visual**:  
+- **AnimatedList** para entrada/salida con efectos Fade y Slide.  
+- **AnimatedContainer** y `AnimatedDefaultTextStyle` para cambios suaves al marcar tareas.  
+- **SnackBar con acción “Deshacer”** al eliminar.  
+- **Haptic feedback** (vibración ligera en móviles) al completar o eliminar tareas.  
+
+---
+
 ## 📅 Plan de desarrollo
 - **Semana 1:** Planteamiento del problema, objetivos y herramientas.  
 - **Semana 2:** Wireframes iniciales y definición de requisitos.  
 - **Semana 3:** Estructura base con `MaterialApp` y `Scaffold`.  
 - **Semana 4:** UI estática (lista de tareas y AppBar).  
 - **Semana 5:** Interactividad (añadir/ marcar/ eliminar tareas con `setState`, diálogo y `Dismissible`).  
-- **Semana 6:** Animaciones y feedback visual.  
+- **Semana 6:** Animaciones y feedback (AnimatedList, Fade/Slide, AnimatedContainer, SnackBar con Deshacer).  
 - **Semana 7:** Gestión de estado global (Provider / Firebase).  
 - **Semana 8:** Pruebas de usabilidad, ajustes finales y entrega.  
 
@@ -59,4 +75,4 @@ Interactividad implementada:
 
 ## 👨‍💻 Autor
 Luis Alfredo Martínez Sarabia
-Proyecto académico - Gestión de Interfaces
+ISTE - Proyecto académico - Gestión de Interfaces
