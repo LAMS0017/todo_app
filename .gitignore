@@ -1,22 +1,30 @@
 # Flutter/Dart
 .dart_tool/
-.build/
 .packages
-.pub-cache/
 .pub/
+build/
+coverage/
+pubspec.lock
+
+# IDEs y editores
 .idea/
 .vscode/
-
-# SO y editor
-*.log
-*.lock
 *.iml
-.DS_Store
 
-# Flutter desktop autogenerados
+# SO (archivos temporales del sistema)
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Flutter Desktop - generados automáticamente
 linux/
 macos/
 windows/
 
-# Otros
-git
+# Web build
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+web/.packages
