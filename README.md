@@ -36,7 +36,6 @@ todo_app/
 ├─ pubspec.yaml
 └─ ...
 
-
 ---
 
 ## 🚀 Semana 4 - Entregable
@@ -61,6 +60,16 @@ Se añadieron **animaciones y feedback visual**:
 
 ---
 
+## 🚀 Semana 7 - Entregable
+Se implementó la **gestión de estado global con Provider**:  
+- Creación de un modelo `TareasProvider` que centraliza la lista de tareas.  
+- Métodos globales para añadir, eliminar y marcar tareas.  
+- Uso de `notifyListeners()` para actualizar la UI automáticamente.  
+- Envolvimiento de la app en `ChangeNotifierProvider` para inyectar el estado global.  
+- La UI ahora utiliza `context.watch` y `context.read` en lugar de `setState`, haciendo el código más limpio y escalable.  
+
+---
+
 ## 📅 Plan de desarrollo
 - **Semana 1:** Planteamiento del problema, objetivos y herramientas.  
 - **Semana 2:** Wireframes iniciales y definición de requisitos.  
@@ -68,11 +77,11 @@ Se añadieron **animaciones y feedback visual**:
 - **Semana 4:** UI estática (lista de tareas y AppBar).  
 - **Semana 5:** Interactividad (añadir/ marcar/ eliminar tareas con `setState`, diálogo y `Dismissible`).  
 - **Semana 6:** Animaciones y feedback (AnimatedList, Fade/Slide, AnimatedContainer, SnackBar con Deshacer).  
-- **Semana 7:** Gestión de estado global (Provider / Firebase).  
+- **Semana 7:** Gestión de estado global (Provider).  
 - **Semana 8:** Pruebas de usabilidad, ajustes finales y entrega.  
 
 ---
 
 ## 👨‍💻 Autor
 Luis Alfredo Martínez Sarabia
-ISTE - Proyecto académico - Gestión de Interfaces
+Proyecto académico - Gestión de Interfaces ISTE
