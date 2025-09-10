@@ -71,11 +71,14 @@ Se implementó la **gestión de estado global con Provider**:
 ---
 
 ## 🚀 Semana 8 - Entregable
-- Pruebas de usabilidad con 2–3 usuarios (añadir, completar, eliminar, casos inválidos).
-- Validaciones: evitar vacíos y duplicados.
-- Accesibilidad básica (tooltips, Semantics).
-- (Opcional) Persistencia local.
-- Build final (APK/Web) y checklist de entrega.
+- Pruebas de usabilidad con 3 usuarios:  
+  - T1: añadir 2 tareas, marcar 1, eliminar 1.  
+  - T2: intentar añadir tarea vacía (bloqueada).  
+  - T3: intentar duplicada (bloqueada).  
+- Validaciones: evitar vacíos/duplicados.  
+- Confirmación antes de eliminar con papelera.  
+- Footer con texto: **"by LAMS © 2025"**.  
+- APK en release generado e instalado en dispositivo real.
 
 ---
 
@@ -88,18 +91,6 @@ Se implementó la **gestión de estado global con Provider**:
 - **Semana 6:** Animaciones y feedback (AnimatedList, Fade/Slide, AnimatedContainer, SnackBar con Deshacer).  
 - **Semana 7:** Gestión de estado global (Provider).  
 - **Semana 8:** Pruebas de usabilidad, ajustes finales y entrega.  
-
----
-
-## 🚀 Semana 8 - Entregable
-- Pruebas de usabilidad con 3 usuarios:  
-  - T1: añadir 2 tareas, marcar 1, eliminar 1.  
-  - T2: intentar añadir tarea vacía (bloqueada).  
-  - T3: intentar duplicada (bloqueada).  
-- Validaciones: evitar vacíos/duplicados.  
-- Confirmación antes de eliminar con papelera.  
-- Footer con texto: **"by LAMS © 2025"**.  
-- APK en release generado e instalado en dispositivo real.
 
 ---
 
