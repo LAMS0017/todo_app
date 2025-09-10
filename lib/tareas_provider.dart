@@ -7,21 +7,15 @@ class Tarea {
 }
 
 class TareasProvider extends ChangeNotifier {
-  final List<Tarea> _tareas = [
-    Tarea("Comprar víveres"),
-    Tarea("Estudiar Flutter"),
-    Tarea("Hacer ejercicio"),
-    Tarea("Leer un libro"),
-  ];
+  final List<Tarea> _tareas = [];
 
-  // Exponemos una vista de solo lectura
   List<Tarea> get tareas => List.unmodifiable(_tareas);
 
   void agregar(String texto) {
     final t = texto.trim();
     if (t.isEmpty) return;
     _tareas.add(Tarea(t));
-    notifyListeners(); // avisa a la UI
+    notifyListeners();
   }
 
   void eliminar(int index) {
